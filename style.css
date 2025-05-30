@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 header{
     position: fixed;
     top: 0;
@@ -53,12 +54,19 @@ header nav ul{
    
 }
 
+.cta-btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
 #hero{
     background-image: url(img/bg-img.png);
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
+
 
 .hero-content{
     height: 100vh;
@@ -104,12 +112,18 @@ h1{
     border: solid 1px white;
     border-radius: 30px;
     color: white;
-    padding:  10px 20px;
+    padding:  15px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
    
+}
+.play-btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(136, 136, 136);
+    transition: 0.5s;
+    border: rgb(136, 136, 136);
 }
 
 
@@ -134,11 +148,40 @@ h1{
     margin-top: 60px;
     margin-bottom: 60px;
 }
+.woman{
+    width: 100%;
+}
+.girl{
+    position: relative;
+}
+.vdo-btn{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 15px;
+    border-radius: 100px;
+    
+}
+.vdo-btn:hover{
+    background-color: rgb(161, 152, 152);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.play{
+    position: absolute;
+    left: 160px;
+    bottom: 45%;
+}
 
 .service{
     margin-top: 60px;
     background-color: white;
     width: 100%;
+    box-shadow: rgb(122, 122, 122);
+}
+.play-video{
+    padding: 30px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
 }
 
 .s-btn{
@@ -158,7 +201,12 @@ h1{
     background-color: rgb(35, 112, 255);
     padding: 10px;
     border-radius: 10px;
+}
 
+.more-btn:hover{
+    color:  rgb(35, 112, 255);
+    background-color:rgb(139, 207, 252) ;
+    transition: 0.5s;
 }
 section h2{
     margin-top: 20px;
@@ -178,6 +226,9 @@ section h2{
     background-color: rgb(223, 216, 255);
     
 }
+#health img{
+    width: 100%;
+}
 .col-md-4{
     display: flex;
     align-items: center;
@@ -186,20 +237,27 @@ section h2{
     
 }
 
-.read-img{
-    position: relative;
+.read-btn{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.read-btn:hover{
+    background-color: rgb(138, 138, 138);
+    color: white;
+    transform: 0.5s;
 }
 
-.read-btn{
+.img{
+    position: relative;
+}
+.read-more{
     position: absolute;
     right: 20px;
     bottom: 20px;
-    color: black;
-    background-color: white;
-    border-radius: 30px;
-    padding: 10px 20px;
-
 }
+
 .button{
     border: solid 1px rgb(170, 170, 170);
     border-radius: 30px;
@@ -241,6 +299,12 @@ section h2{
     color: rgb(168, 151, 252);
     padding:  10px;
 
+}
+
+.learn-btn:hover{
+    color: white;
+    background-color:rgb(168, 151, 252) ;
+    transition: 0.5s;
 }
 .margin-btm{
     margin-bottom: 30px;
@@ -292,6 +356,11 @@ section h2{
     color: rgba(108, 126, 235, 1);
     padding: 10px;
 }
+.recieve-btn:hover{
+    background-color: rgb(186, 202, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
 .recieve{
     display: flex;
     justify-content: space-between;
@@ -313,12 +382,17 @@ footer{
     padding-top: 120px;
 
 }
-.email-btn{
+/* .email-btn{
     background-color: rgba(69, 98, 254, 1);
     padding: 10px;
     border-radius: 10px;
     color: white;
 }
+.email-btn:hover{
+    color: rgba(69, 98, 254, 1);
+    background-color:white;
+    transition: 0.5s;
+} */
 
 .footer{
     display: flex;
@@ -346,8 +420,7 @@ hr{
 }
 
 .end img{
-    width: 20px;
-    height: 20px;
+    
     padding-left: 5px;
     
 }
